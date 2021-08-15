@@ -1,0 +1,56 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="DOWN x5">
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+    </macro>
+    <macro name="UP x5">
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+    </macro>
+    <macro name="DOWN x5 with Selection">
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+    </macro>
+    <macro name="UP x5 with Selection">
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+    </macro>
+    <macro name="NEXT WORD x3">
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+    </macro>
+    <macro name="PREV WORD x3">
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+    </macro>
+    <macro name="Down x5 Project view">
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+    </macro>
+    <macro name="Up x5 Project View">
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+    </macro>
+  </component>
+</application>
