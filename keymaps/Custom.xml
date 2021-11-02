@@ -29,6 +29,10 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -54,6 +58,11 @@
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="alt subtract" />
   </action>
@@ -69,14 +78,6 @@
   </action>
   <action id="EditorDeleteToWordStartInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="shift ctrl delete" />
-  </action>
-  <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift end" />
-    <keyboard-shortcut first-keystroke="shift ctrl end" />
-  </action>
-  <action id="EditorLineStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift home" />
-    <keyboard-shortcut first-keystroke="shift ctrl home" />
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
@@ -137,6 +138,7 @@
   </action>
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -146,15 +148,19 @@
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+    <keyboard-shortcut first-keystroke="ctrl alt end" />
   </action>
   <action id="EditorTextEndWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt page_down" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt end" />
   </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+    <keyboard-shortcut first-keystroke="ctrl alt home" />
   </action>
   <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt page_up" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt home" />
   </action>
   <action id="ExpandAllToLevel1" />
   <action id="ExpandAllToLevel2" />
@@ -180,6 +186,7 @@
   <action id="GotoPreviousBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
+  <action id="GotoRelated" />
   <action id="GotoTest" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
@@ -222,17 +229,12 @@
   <action id="MoveElementRight">
     <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
-  <action id="MoveLineDown" />
-  <action id="MoveLineUp" />
-  <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="shift alt down" />
-  </action>
-  <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="shift alt up" />
-  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift alt divide" />
   </action>
+  <action id="NavBar-selectHome" />
   <action id="NewElement" />
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -304,9 +306,6 @@
   <action id="ToggleBreakpointEnabled">
     <keyboard-shortcut first-keystroke="shift ctrl multiply" />
     <keyboard-shortcut first-keystroke="shift alt multiply" />
-  </action>
-  <action id="ToggleFullScreen">
-    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />

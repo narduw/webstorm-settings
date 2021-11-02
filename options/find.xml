@@ -16,9 +16,9 @@
     <mask>*.inc</mask>
     <mask>*.html</mask>
     <mask>*.nj</mask>
-    <mask>*.scss</mask>
     <mask>*.test.js</mask>
-    <mask>*.jsx</mask>
     <mask>*.js</mask>
+    <mask>*.scss</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
