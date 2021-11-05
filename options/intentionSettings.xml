@@ -2,5 +2,8 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="JavaScript/Quote property names" />
     <ignoreAction name="JavaScript/Other/Replace single-quoted string with double-quoted string" />
+    <ignoreAction name="JavaScript/Other/Compute constant value" />
+    <ignoreAction name="JavaScript/Other/Compute constant value of sub-expression" />
+    <ignoreAction name="JavaScript/Other/Extract increment" />
   </component>
 </application>

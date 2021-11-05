@@ -5,6 +5,9 @@
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
   </action>
@@ -57,6 +60,9 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
@@ -176,6 +182,7 @@
   <action id="ExpandToLevel3" />
   <action id="ExpandToLevel4" />
   <action id="ExpandToLevel5" />
+  <action id="ExportToTextFile" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
@@ -245,9 +252,14 @@
     <keyboard-shortcut first-keystroke="alt q" />
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
   <action id="OpenInRightSplit">
     <mouse-shortcut keystroke="alt button1 doubleClick" />
   </action>
+  <action id="OverrideMethods" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
@@ -332,4 +344,5 @@
   <action id="VcsShowPrevChangeMarker" />
   <action id="ViewSource" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="context.save" />
 </keymap>
