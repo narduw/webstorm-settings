@@ -14,9 +14,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
-  <action id="ActivateFindToolWindow">
-    <keyboard-shortcut first-keystroke="alt f" />
-  </action>
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateProblemsViewToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
