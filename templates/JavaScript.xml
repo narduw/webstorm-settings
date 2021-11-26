@@ -4,8 +4,19 @@
     <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="arf" value="const $NAME$ = () =&gt; {&#10;$SELECTION$&#10;};" description="Surround with Arrow Function" toReformat="true" toShortenFQNames="true">
+  <template name="aarf" value="const $NAME$ = () =&gt; {&#10;$SELECTION$&#10;};" description="Surround with Arrow Function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="arf" value="($PARAMS$) =&gt; {$END$}" description="Annonymous Arrow Function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="false" />
+    </context>
   </template>
 </templateSet>
