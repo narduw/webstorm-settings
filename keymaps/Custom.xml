@@ -23,9 +23,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
-  </action>
+  <action id="ActivateVersionControlToolWindow" />
   <action id="ActivatenpmToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
@@ -65,6 +63,9 @@
   </action>
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="insert" />
+  </action>
+  <action id="Debugger.RemoveAllBreakpointsInFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt multiply" />
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="DomElementsTreeView.DeleteElement">
@@ -285,9 +286,12 @@
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="OpenInRightSplit">
-    <mouse-shortcut keystroke="alt button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="OverrideMethods" />
+  <action id="PinToolwindowTab">
+    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+  </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
@@ -347,6 +351,9 @@
   <action id="ToggleBreakpointEnabled">
     <keyboard-shortcut first-keystroke="shift ctrl multiply" />
     <keyboard-shortcut first-keystroke="shift alt multiply" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="alt f12" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />
