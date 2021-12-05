@@ -79,11 +79,14 @@
     <keyboard-shortcut first-keystroke="shift back_space" />
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
+  <action id="EditorBackwardParagraph">
+    <keyboard-shortcut first-keystroke="shift alt subtract" />
+  </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="alt subtract" />
+    <keyboard-shortcut first-keystroke="ctrl alt subtract" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="alt add" />
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -102,9 +105,8 @@
   <action id="EditorDeleteToWordStartInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="shift ctrl back_space" />
   </action>
-  <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
-    <keyboard-shortcut first-keystroke="shift alt subtract" />
+  <action id="EditorForwardParagraph">
+    <keyboard-shortcut first-keystroke="shift alt add" />
   </action>
   <action id="EditorMoveDownAndScroll">
     <keyboard-shortcut first-keystroke="ctrl down" />
@@ -254,6 +256,9 @@
   <action id="Macro.Up x5 Project View">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="MaximizeEditorInSplit">
+    <keyboard-shortcut first-keystroke="alt add" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveEditorToOppositeTabGroup">
@@ -303,8 +308,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl t" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="RerunFailedTests">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="shift alt 1" />
+  </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="shift alt 1" />
+  </action>
+  <action id="RunDashboard.Run">
     <keyboard-shortcut first-keystroke="shift alt 1" />
   </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
