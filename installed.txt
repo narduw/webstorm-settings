@@ -1,3 +1,4 @@
 aws.toolkit
 com.gitlab.lae.intellij.jump
 com.jetbrains.twig
+ru.adelf.idea.dotenv

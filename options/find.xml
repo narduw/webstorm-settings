@@ -19,7 +19,7 @@
     <mask>*.ts</mask>
     <mask>*.jsw</mask>
     <mask>*.cjs</mask>
-    <mask>*.js</mask>
     <mask>*.test.js</mask>
+    <mask>*.js</mask>
   </component>
 </application>

@@ -6,6 +6,7 @@
       <mapping ext="jsw" type="JavaScript" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="spy" type="Twig" />
       <mapping ext="nj" type="Twig" />
     </extensionMap>
   </component>
