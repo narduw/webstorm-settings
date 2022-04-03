@@ -6,9 +6,10 @@
   </component>
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
+    <option name="PARAMETER_INFO_DELAY" value="500" />
+    <option name="JAVADOC_INFO_DELAY" value="200" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="REFORMAT_ON_PASTE" value="4" />
-    <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
@@ -32,24 +33,26 @@
         <entry key="yaml" value="true" />
       </map>
     </option>
-    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="USE_SOFT_WRAPS" value="" />
     <option name="SOFT_WRAP_FILE_MASKS" value="" />
     <option name="IS_VIRTUAL_SPACE" value="true" />
     <option name="IS_CARET_INSIDE_TABS" value="true" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
     <option name="TOOLTIPS_DELAY_MS" value="200" />
+    <option name="SHOW_INTENTION_BULB" value="false" />
     <option name="IS_CARET_BLINKING" value="false" />
-    <option name="CARET_BLINKING_PERIOD" value="200" />
-    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="CARET_BLINKING_PERIOD" value="400" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="SHOW_INTENTION_PREVIEW" value="true" />
-    <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_PERSISTENT" value="true" />
     <option name="BIDI_TEXT_DIRECTION" value="LTR" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
@@ -72,6 +75,7 @@
   <component name="JSCodeFoldingSettings">
     <option name="collapseArrayLiterals" value="true" />
     <option name="collapseObjectLiterals" value="true" />
+    <option name="collapseOneLineFunctions" value="true" />
     <option name="collapseXmlLiterals" value="true" />
     <option name="COLLAPSE_OBJECT_LITERALS" value="true" />
     <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
@@ -83,5 +87,11 @@
   <component name="JsonEditorOptions">
     <option name="COLON_MOVE_OUTSIDE_QUOTES" value="true" />
     <option name="COMMA_MOVE_OUTSIDE_QUOTES" value="true" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="COLLAPSE_XML_TAGS" value="true" />
   </component>
 </application>

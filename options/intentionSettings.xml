@@ -5,5 +5,7 @@
     <ignoreAction name="JavaScript/Other/Compute constant value" />
     <ignoreAction name="JavaScript/Other/Compute constant value of sub-expression" />
     <ignoreAction name="JavaScript/Other/Extract increment" />
+    <ignoreAction name="JavaScript/Introduce local variable" />
+    <ignoreAction name="JavaScript/Declaration/Split declaration and initialization" />
   </component>
 </application>

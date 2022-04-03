@@ -1,4 +1,5 @@
-aws.toolkit
 com.gitlab.lae.intellij.jump
 com.jetbrains.twig
+fr.gabrielcolson.prisma.prisma-intellij-plugin
+mobi.hsz.idea.gitignore
 ru.adelf.idea.dotenv

@@ -30,4 +30,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="afa" value="afterAll(() =&gt; {&#10;  $END$&#10;});" description="Inserts afterAll() block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>

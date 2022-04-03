@@ -1,13 +1,17 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="test" type="AUTO_DETECTED" />
       <mapping ext="inc" type="HTML" />
       <mapping pattern="*.js.template" type="JavaScript" />
       <mapping ext="jsw" type="JavaScript" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="spy" type="Twig" />
       <mapping ext="nj" type="Twig" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
     </extensionMap>
   </component>
 </application>

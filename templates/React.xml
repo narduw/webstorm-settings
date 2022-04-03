@@ -1,0 +1,23 @@
+<templateSet group="React">
+  <template name="erfc" value="import { VFC } from 'react'&#10;&#10;type $COMPONENT_NAME$Props = {}&#10;&#10;export const $COMPONENT_NAME$: VFC&lt;$COMPONENT_NAME$Props&gt; = (props) =&gt; {&#10;  return &lt;div&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;}&#10;&#10;export default $COMPONENT_NAME$" description="Export React Functional Component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ust" value="const [$name$, set$Name$] = useState($init$)" description="useState" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="state" alwaysStopAt="true" />
+    <variable name="Name" expression="capitalize(name)" defaultValue="State" alwaysStopAt="false" />
+    <variable name="init" expression="" defaultValue="null" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="uef" value="useEffect(() =&gt; {&#10;  $impl$&#10;}, [$deps$])" description="useEffect" toReformat="false" toShortenFQNames="true">
+    <variable name="impl" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="deps" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
