@@ -1,12 +1,5 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="DOWN x5">
-      <action id="EditorDown" />
-      <action id="EditorDown" />
-      <action id="EditorDown" />
-      <action id="EditorDown" />
-      <action id="EditorDown" />
-    </macro>
     <macro name="UP x5">
       <action id="EditorUp" />
       <action id="EditorUp" />
@@ -75,6 +68,13 @@
       <action id="EditorLeft" />
       <action id="EditorLeft" />
       <action id="EditorLeft" />
+    </macro>
+    <macro name="DOWN x5">
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
     </macro>
   </component>
 </application>

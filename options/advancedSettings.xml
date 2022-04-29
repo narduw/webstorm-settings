@@ -6,7 +6,6 @@
         <entry key="editor.comment.line.caret.down" value="false" />
         <entry key="editor.maximize.on.double.click" value="false" />
         <entry key="editor.show.special.chars" value="false" />
-        <entry key="editor.skip.copy.and.cut.for.empty.selection" value="true" />
         <entry key="editor.soft.wrap.force.limit" value="10" />
         <entry key="ide.max.recent.projects" value="10" />
         <entry key="ide.open.readme.md.on.startup" value="false" />

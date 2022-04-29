@@ -8,10 +8,10 @@
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
-      <mapping ext="spy" type="Twig" />
-      <mapping ext="nj" type="Twig" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
+      <mapping ext="nj" type="Twig" />
+      <mapping ext="spy" type="Twig" />
     </extensionMap>
   </component>
 </application>

@@ -1,5 +1,2 @@
-com.gitlab.lae.intellij.jump
-com.jetbrains.twig
-fr.gabrielcolson.prisma.prisma-intellij-plugin
-mobi.hsz.idea.gitignore
+com.nekofar.milad.intellij.nestjs
 ru.adelf.idea.dotenv
