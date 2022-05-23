@@ -11,6 +11,7 @@
         <entry key="ide.open.readme.md.on.startup" value="false" />
         <entry key="ide.show.fileType.icon.in.titleBar" value="true" />
         <entry key="ide.suppress.double.click.handler" value="true" />
+        <entry key="ide.tree.collapse.recursively" value="false" />
         <entry key="terminal.buffer.max.lines.count" value="1000" />
       </map>
     </option>
