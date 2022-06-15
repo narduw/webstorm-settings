@@ -96,5 +96,37 @@
       <action id="EditorUpWithSelection" />
       <action id="EditorUpWithSelection" />
     </macro>
+    <macro name="Down x4">
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+      <action id="EditorDown" />
+    </macro>
+    <macro name="Down x4 w/ selection">
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+      <action id="EditorDownWithSelection" />
+    </macro>
+    <macro name="Up x4">
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+      <action id="EditorUp" />
+    </macro>
+    <macro name="Up x4 w/ selection">
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+    </macro>
+    <macro name="Next Word x2">
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+    </macro>
+    <macro name="Previous Word x2">
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+    </macro>
   </component>
 </application>

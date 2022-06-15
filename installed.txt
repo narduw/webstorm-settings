@@ -1,3 +1,2 @@
-com.nekofar.milad.intellij.nestjs
 ru.adelf.idea.dotenv
 youngstead.relative-line-numbers

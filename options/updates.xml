@@ -3,8 +3,10 @@
     <ignoredBuildNumbers>
       <item value="202.8194.6" />
     </ignoredBuildNumbers>
-    <option name="LAST_BUILD_CHECKED" value="WS-221.5591.52" />
-    <option name="LAST_TIME_CHECKED" value="1653288146840" />
+    <option name="LAST_BUILD_CHECKED" value="WS-222.2964.53" />
+    <option name="LAST_TIME_CHECKED" value="1655280386143" />
     <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
+    <option name="UPDATE_CHANNEL_TYPE" value="eap" />
+    <option name="WHATS_NEW_SHOWN_FOR" value="221" />
   </component>
 </application>
